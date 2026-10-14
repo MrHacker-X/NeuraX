@@ -178,7 +178,7 @@ This bot provides access to Perplexity AI through Telegram, offering intelligent
 • Professional modular architecture
 
 **Developer Contact:**
-🐙 GitHub: https://github.com/VritraSecz
+🐙 GitHub: https://github.com/MrHacker-X
 🌐 Website: https://vritrasec.com
 📸 Instagram: https://instagram.com/haxorlex
 ▶️ YouTube: https://youtube.com/@Technolex

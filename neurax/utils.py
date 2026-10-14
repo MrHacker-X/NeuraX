@@ -80,7 +80,7 @@ def print_connect():
 ║                                                                     ║
 ║  {Colors.BRIGHT_WHITE}Developer:{Colors.RESET} {Colors.BRIGHT_GREEN}Alex Butler [Vritra Security Organization]{Colors.BRIGHT_CYAN}             ╔╝
 ║                                                                    ║
-║  {Colors.BRIGHT_WHITE}🐙 GitHub:{Colors.RESET} {Colors.BRIGHT_BLUE}https://github.com/VritraSecz{Colors.BRIGHT_CYAN}                          ║
+║  {Colors.BRIGHT_WHITE}🐙 GitHub:{Colors.RESET} {Colors.BRIGHT_BLUE}https://github.com/MrHacker-X{Colors.BRIGHT_CYAN}                          ║
 ║                                                                    ║
 ║  {Colors.BRIGHT_WHITE}🌐 Website:{Colors.RESET} {Colors.BRIGHT_BLUE}https://vritrasec.com{Colors.BRIGHT_CYAN}                                 ║
 ║                                                                    ║

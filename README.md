@@ -73,31 +73,34 @@
 
 ## 🏗️ Architecture
 
-NeuraX follows a modular architecture pattern:
+NeuraX follows a clean installable package layout:
 
 ```
 NeuraX/
-├── README.md                 # Project documentation
-├── requirements.txt          # Python dependencies
-├── neurax.py                # Main application entry point
-├── LICENSE                  # MIT License file
-└── modules/
-    ├── __init__.py          # Package initialization and exports
-    ├── ai_client.py         # Perplexity AI client implementation
-    ├── colors.py            # ANSI color codes and banner
-    ├── config.py            # Configuration management system
-    ├── telegram_bot.py      # Telegram bot implementation
-    └── utils.py             # Utility functions and helpers
+├── neurax.py              # Thin launcher (python neurax.py)
+├── neurax/                # Installable package
+│   ├── cli.py             # Args, chat mode, bot launch
+│   ├── ai_client.py       # Perplexity AI client
+│   ├── colors.py          # ANSI colors and banner
+│   ├── config.py          # Persistent configuration
+│   ├── telegram_bot.py    # Telegram bot
+│   ├── utils.py           # UI helpers
+│   └── remote_control.py  # Remote alert module
+├── pyproject.toml         # Packaging / PyPI metadata
+├── requirements.txt
+├── LICENSE
+└── README.md
 ```
 
 ### Module Descriptions
 
-- **`neurax.py`**: Main entry point with argument parsing and mode selection
-- **`ai_client.py`**: Handles communication with Perplexity AI API
-- **`colors.py`**: Provides ANSI color codes and the NeuraX banner
-- **`config.py`**: Manages persistent configuration storage and retrieval
-- **`telegram_bot.py`**: Complete Telegram bot implementation with async handlers
-- **`utils.py`**: Common utility functions for UI and system operations
+- **`neurax.py`**: Backwards-compatible launcher; delegates to `neurax.cli:main`
+- **`neurax/cli.py`**: Argument parsing and mode selection
+- **`ai_client.py`**: Perplexity AI API client
+- **`colors.py`**: ANSI colors and banner
+- **`config.py`**: Persistent configuration storage
+- **`telegram_bot.py`**: Telegram bot with async handlers
+- **`utils.py`**: Shared UI helpers
 
 
 ## 🚀 Installation

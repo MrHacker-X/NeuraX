@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neurax-ai"
+# Keep in sync with neurax/__init__.py (__version__).
+version = "1.0.1"
+description = "A powerful CLI and Telegram bot interface for Perplexity AI"
+readme = "README.md"
+requires-python = ">=3.7"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Alex Butler", email = "contact@vritrasec.com" }]
+keywords = [
+    "ai", "chatbot", "telegram", "cli", "perplexity", "assistant", "neurax",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Communications :: Chat",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Utilities",
+]
+dependencies = [
+    "requests>=2.31.0",
+    "python-telegram-bot==21.5",
+    "pytz>=2024.1",
+    "colorama>=0.4.6",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "build>=1.0",
+    "twine>=4.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/MrHacker-X/NeuraX"
+Repository = "https://github.com/MrHacker-X/NeuraX"
+Issues = "https://github.com/MrHacker-X/NeuraX/issues"
+Website = "https://vritrasec.com"
+"Telegram Channel" = "https://t.me/VritraSec"
+
+[project.scripts]
+neurax = "neurax.cli:main"
+
+[tool.setuptools]
+packages = ["neurax"]
