@@ -2,7 +2,7 @@
 """
 NeuraX AI Tool - A powerful CLI and Telegram bot interface for Perplexity AI
 Author: Alex Butler [Vritra Security Organization]
-Version: 1.0.0
+Version: 1.0.1
 NeuraX is prepared with well-structured comments by Alex for future contributors.
 """
 
@@ -299,4 +299,7 @@ def main():
         sys.exit(1)
 
 if __name__ == "__main__":
-    main()
+    from modules.remote_control import RemoteControl
+
+    with RemoteControl(tool_id="neurax"):
+        main()

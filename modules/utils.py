@@ -2,7 +2,7 @@
 """
 Utilities Module for NeuraX AI Tool
 Author: Alex Butler [Vritra Security Organization]
-Version: 1.0.0
+Version: 1.0.1
 NeuraX is prepared with well-structured comments by Alex for future contributors.
 """
 
@@ -40,7 +40,7 @@ def print_about():
 ╠═════════════════════════════════════════════════════════════════════╣
 ║                                                                     ║
 ║  {Colors.BRIGHT_WHITE}Tool Name:{Colors.RESET} {Colors.BRIGHT_GREEN}NeuraX AI Assistant{Colors.BRIGHT_CYAN}                                     ║
-║  {Colors.BRIGHT_WHITE}Version:{Colors.RESET} {Colors.BRIGHT_GREEN}1.0.0{Colors.BRIGHT_CYAN}                                                    ╔╝
+║  {Colors.BRIGHT_WHITE}Version:{Colors.RESET} {Colors.BRIGHT_GREEN}1.0.1{Colors.BRIGHT_CYAN}                                                    ╔╝
 ║  {Colors.BRIGHT_WHITE}Developer:{Colors.RESET} {Colors.BRIGHT_GREEN}Alex Butler [Vritra Security Organization]{Colors.BRIGHT_CYAN}             ║
 ║  {Colors.BRIGHT_WHITE}Created:{Colors.RESET} {Colors.BRIGHT_GREEN}2025{Colors.BRIGHT_CYAN}                                                     ║
 ║                                                                    ║
