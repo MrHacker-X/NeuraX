@@ -2,7 +2,7 @@
 """
 Utilities Module for NeuraX AI Tool
 Author: Alex Butler [Vritra Security Organization]
-Version: 1.0.1
+Version: 1.0.2
 NeuraX is prepared with well-structured comments by Alex for future contributors.
 """
 

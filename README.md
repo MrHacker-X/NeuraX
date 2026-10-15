@@ -7,7 +7,7 @@
 [![Python](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Termux-lightgrey.svg)](#compatibility)
-[![Version](https://img.shields.io/badge/version-1.0.1-brightgreen.svg)](#overview)
+[![Version](https://img.shields.io/badge/version-1.0.2-brightgreen.svg)](#overview)
 [![Status](https://img.shields.io/badge/status-stable-success.svg)](#overview)
 [![Stars](https://img.shields.io/github/stars/VritraSecz/NeuraX?style=social)](https://github.com/VritraSecz/NeuraX)
 [![Forks](https://img.shields.io/github/forks/VritraSecz/NeuraX?style=social)](https://github.com/VritraSecz/NeuraX)
@@ -333,7 +333,7 @@ The Telegram bot implementation includes:
 
 ## 📝 Changelog
 
-### Version 1.0.1 (Current)
+### Version 1.0.2 (Current)
 - ✔ Initial release
 - ✔ CLI chat interface
 - ✔ Telegram bot integration

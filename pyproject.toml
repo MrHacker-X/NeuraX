@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "neurax-ai"
 # Keep in sync with neurax/__init__.py (__version__).
-version = "1.0.1"
+version = "1.0.2"
 description = "A powerful CLI and Telegram bot interface for Perplexity AI"
 readme = "README.md"
 requires-python = ">=3.7"

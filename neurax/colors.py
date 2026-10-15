@@ -2,7 +2,7 @@
 """
 Colors Module for NeuraX AI Tool
 Author: Alex Butler [Vritra Security Organization]
-Version: 1.0.1
+Version: 1.0.2
 NeuraX is prepared with well-structured comments by Alex for future contributors.
 """
 
@@ -57,7 +57,7 @@ def print_banner():
 ║                    {Colors.BRIGHT_YELLOW}🧠 AI-Powered Assistant Tool 🧠{Colors.BRIGHT_CYAN}                 ╚╗
 ║                                                                     ║
 ║            {Colors.BRIGHT_GREEN}CLI Mode & Telegram Bot Integration Available{Colors.BRIGHT_CYAN}            ║
-║    {Colors.BRIGHT_WHITE}Version 1.0.1 - By Alex Butler [Vritra Security Organization]{Colors.BRIGHT_CYAN}    ║
+║    {Colors.BRIGHT_WHITE}Version 1.0.2 - By Alex Butler [Vritra Security Organization]{Colors.BRIGHT_CYAN}    ║
 ║                                                                     ║
 ╚═════════════════════════════════════════════════════════════════════╝{Colors.RESET}
 """
