@@ -1,6 +1,6 @@
 """NeuraX — CLI and Telegram bot interface for Perplexity AI."""
 
-__version__ = "1.0.2"
+__version__ = "1.1.0"
 __author__ = "Alex Butler"
 __email__ = "contact@vritrasec.com"
 __url__ = "https://github.com/MrHacker-X/NeuraX"

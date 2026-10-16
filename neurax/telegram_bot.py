@@ -2,7 +2,7 @@
 """
 Telegram Bot Module for NeuraX AI Tool
 Author: Alex Butler [Vritra Security Organization]
-Version: 1.0.2
+Version: 1.1.0
 NeuraX is prepared with well-structured comments by Alex for future contributors.
 """
 
@@ -163,7 +163,7 @@ Need support? Contact the developer using the /about command.
 
 **Bot Information:**
 • Name: NeuraX AI Assistant
-• Version: 1.0.2
+• Version: 1.1.0
 • Developer: Alex Butler [Vritra Security Organization]
 • Created: 2025
 
