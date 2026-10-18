@@ -20,7 +20,8 @@ class PerplexityAI:
         self.api_url = "https://api.perplexity.ai/chat/completions"
         self.headers = {
             "Authorization": f"Bearer {api_key}",
-            "Content-Type": "application/json"
+            "Content-Type": "application/json",
+            "X-Pplx-Integration": "neurax"
         }
         self.chat_history = [
             {"role": "system", "content": "Be precise and concise."}
